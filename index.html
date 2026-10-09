@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#160f2b">
+  <title>Shudhu Tomar Jonno, Prokrity ❤️</title>
+  <meta name="description" content="A little birthday universe made with love for Prokrity.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <span class="star star-1">✦</span><span class="star star-2">✧</span>
+    <span class="star star-3">✦</span><span class="star star-4">✧</span>
+    <span class="star star-5">✦</span><span class="star star-6">✧</span>
+    <span class="moon"></span>
+  </div>
+  <div class="hearts" id="hearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">For <span id="brandName">Prokrity</span> <span class="tiny-heart">♥</span></div>
+    <button class="music-button" id="musicButton" type="button" aria-pressed="false">♫ Play music</button>
+  </header>
+
+  <main>
+    <section class="hero panel" id="welcome">
+      <p class="eyebrow" id="openingEyebrow">A little universe made just for you</p>
+      <h1 id="openingTitle">Shudhu Tomar Jonno,<br><span>Prokrity</span> ❤️</h1>
+      <p class="hero-copy" id="openingMessage">Ajker din-ta tomar motoi shundor hok. Ei chotto website-ta shudhu tomar jonno.</p>
+      <button class="primary-button" id="beginButton" type="button">Open My Heart <span>♡</span></button>
+      <p class="scroll-hint">Ekta chotto golpo opekkha korche tomar jonno</p>
+    </section>
+
+    <section class="story panel hidden" id="story" aria-live="polite">
+      <div class="progress-wrap">
+        <div class="progress-label"><span id="progressText">Chapter 1 of 5</span><span id="progressPercent">20%</span></div>
+        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+      <p class="eyebrow" id="chapterEyebrow">CHAPTER 01</p>
+      <div class="chapter-symbol" id="chapterSymbol" aria-hidden="true">✧</div>
+      <h2 id="chapterTitle">Amader Golper Shuru</h2>
+      <p class="chapter-text" id="chapterMessage"></p>
+      <p class="chapter-english" id="chapterEnglish"></p>
+      <div class="chapter-actions">
+        <button class="secondary-button hidden" id="backButton" type="button">← Previous</button>
+        <button class="primary-button" id="nextButton" type="button">Unlock next chapter ✨</button>
+      </div>
+      <p class="little-note" id="chapterNote">One click at a time, one little feeling at a time.</p>
+    </section>
+
+    <section class="finale panel hidden" id="finale">
+      <div class="finale-sparkle">✧ ♥ ✧</div>
+      <p class="eyebrow">THE LAST LITTLE SURPRISE</p>
+      <h2 id="finalTitle">Happy Birthday,<br><span>Amar Priyotoma</span> ❤️</h2>
+      <p id="finalMessage">Tomar hashi jeno kokhono hariye na jay. Tumi shobshomoy bhalo theko, ar tomar protita shopno ekdin shotti hok.</p>
+      <div class="signature" id="signature">With all my love, always. ♡</div>
+      <button class="secondary-button" id="restartButton" type="button">Read our story again ↺</button>
+      <div class="confetti" aria-hidden="true">✦　♡　✧　♥　✦　♡　✧</div>
+    </section>
+  </main>
+
+  <footer>Made with care, a little courage, and a lot of love. <span>♡</span></footer>
+  <audio id="backgroundMusic" loop preload="none">
+    <!-- Optional: add your own licensed audio file named music.mp3 in this folder. -->
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
